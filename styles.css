@@ -1,0 +1,72 @@
+/* i wanted a cuter font so im importing it */
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;500&display=swap');
+
+header, section, aside, footer {
+    background-color: #ede1cb; 
+    border: 2px solid #4a5a34; 
+    border-radius: 40px;
+    padding: 1rem;
+    box-shadow: 3px 3px 0px #354024;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+
+header span{
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #354024;
+}
+
+main {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    max-width: 1000px;       
+}
+section, aside {
+  flex: 1;                 
+}
+
+section {
+    flex-grow: 1;
+}
+
+footer {
+    width: 100%;
+    padding: .5rem .5rem .5rem .5rem;
+    margin-top: 1rem;
+}
+
+body {
+    padding: 2rem;
+    margin-top: 1rem;
+    background: linear-gradient(135deg, #739576 0%, #ffffff 100%);
+    background-attachment:fixed; 
+
+    font-family: 'Chakra Petch', 'Comic Mono', 'Maple Mono', monospace;
+    color: #2e4a31;
+}
+
+nav a {
+  margin-left: 1.5rem;
+  color: #2f4630;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #568759; 
+}
+
+.box-image {
+  width: 100%;        
+  height: 200px;      
+  object-fit: cover;    
+  border-radius: 20px; 
+  margin-bottom: 1rem; 
+  border: 2px dotted #4a5a34; 
+}
